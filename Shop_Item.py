@@ -183,9 +183,8 @@ def inserirProduto():
         
     num = 0
     for item in lista.shopList:
-        num += 1
         print(f'\n{num}º item: \nNome: {item.name}\nquantidade: {item.qnt}\nValor: R${item.value}')
-    
+        num += 1
         
 def inicio():
     possuiCadastro()
